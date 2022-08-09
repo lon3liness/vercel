@@ -3,7 +3,7 @@ function showTime(){
     var h = date.getHours(); 
     var m = date.getMinutes();
     var s = date.getSeconds();
-    var session = "AM";
+    var session = " ";
 
     if(h==0){
         h=12;
@@ -11,7 +11,7 @@ function showTime(){
 
     if(h>12){
         h = h - 12;
-        session = "PM"
+        session = " "
     }
     
     h = (h<10) ? "0" + h : h;
