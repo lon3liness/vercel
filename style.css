@@ -1,6 +1,4 @@
-body{
-    background-color: black;
-}
+
 .clock{
     position: absolute;
     top: 50%;
@@ -14,6 +12,11 @@ body{
 
 .texto{
     text-align: center;
-
-
+   
 }
+
+
+
+
+
+
