@@ -13,10 +13,10 @@ const atualizar = (tempo) => {
     const qtdHoras = Math.floor((tempo % (60 * 60 * 24)) / (60 * 60));
     const qtdDias = Math.floor(tempo / (60 * 60 * 24));
 
-    segundos.textContent = formatarDigito(qtdSegundos);
-    minutos.textContent = formatarDigito(qtdMinutos);
-    horas.textContent = formatarDigito(qtdHoras);
-    dias.textContent = formatarDigito(qtdDias);
+    segundos.textContent = formatarDigito(qtdSegundos) ;
+    minutos.textContent = formatarDigito(qtdMinutos) ;
+    horas.textContent = formatarDigito(qtdHoras) ;
+    dias.textContent = formatarDigito(qtdDias) ;
 }
 
 const contagemRegressiva = (tempo) => {
